@@ -1,0 +1,149 @@
+_dataset:
+  class: Vagaja2023
+  code: Vagaja2023
+  doi: 10.5281/zenodo.8086086
+  interval:
+  - 0
+  - 10
+  n_subjects: 26
+  paradigm: imagery
+acquisition:
+  cap_manufacturer: Brain Products GmbH
+  cap_model: actiCAP
+  channel_types:
+    eeg: 32
+    emg: 2
+    misc: 4
+  electrode_type: active
+  hardware: LiveAmp 32 (Brain Products GmbH)
+  line_freq: 50.0
+  montage: standard_1020
+  sampling_rate: 500.0
+  sensor_type: active Ag/AgCl
+  sensors:
+  - Fp1
+  - Fz
+  - F3
+  - F7
+  - FT9
+  - FC5
+  - FC1
+  - C3
+  - T7
+  - TP9
+  - CP5
+  - CP1
+  - Pz
+  - P3
+  - P7
+  - O1
+  - Oz
+  - O2
+  - P4
+  - P8
+  - TP10
+  - CP6
+  - CP2
+  - Cz
+  - C4
+  - T8
+  - FT10
+  - FC6
+  - FC2
+  - F4
+  - F8
+  - Fp2
+  software: BrainVision Recorder
+bci_application:
+  applications:
+  - motor rehabilitation
+  - BCI training
+  environment: lab
+  online_feedback: true
+cross_validation:
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_blocks: 1
+  trials_context: One lab session per subject. Each subject has resting-state, embodiment and MI BrainVision recordings, but
+    only the MI run carries left/right-hand class markers and is exposed here. Trials are cue-locked to the left/right-hand
+    marker with a 10 s imagery/feedback window (20 trials per class).
+documentation:
+  country: PT
+  data_url: https://zenodo.org/records/8086086
+  description: Motor-imagery EEG plus bipolar EMG, skin temperature and accelerometry from 26 healthy volunteers performing
+    cued left/right-hand motor imagery during embodiment-primed MI-BCI training in virtual reality.
+  doi: 10.5281/zenodo.8086086
+  institution: Instituto Superior Tecnico, Universidade de Lisboa
+  investigators:
+  - Katarina Vagaja
+  - Athanasios Vourvopoulos
+  keywords:
+  - motor imagery
+  - BCI
+  - brain-computer interface
+  - EEG
+  - virtual reality
+  - embodiment
+  - virtual hand illusion
+  - neurorehabilitation
+  license: CC-BY-4.0
+  publication_year: 2023
+  repository: Zenodo
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 7
+    right_hand: 8
+  feedback_type: visual
+  instructions: Imagine moving the left or right hand following the directional cue while immersed in the virtual-reality
+    environment.
+  mode: online
+  n_classes: 2
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual
+  study_design: Between-subject, randomized-group cue-based left- vs right-hand motor imagery in immersive VR, comparing an
+    embodied (virtual-hand-illusion) priming group against a non-embodied control group, each with a single MI training run
+    of 40 trials.
+  synchronicity: cue-based
+  trial_duration: 10.0
+file_format: BrainVision
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 10.0
+  imagery_tasks:
+  - left_hand
+  - right_hand
+participants:
+  bci_experience: mixed (3 of 26 with prior BCI experience)
+  gender:
+    female: 16
+    male: 10
+  handedness:
+    right: 26
+  health_status: healthy
+  n_subjects: 26
+  species: homo sapiens
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  frequency_bands:
+    beta:
+    - 12.0
+    - 30.0
+    mu:
+    - 8.0
+    - 12.0
+tags:
+  modality:
+  - motor
+  pathology:
+  - healthy
+  type:
+  - Motor Imagery
