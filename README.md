@@ -146,3 +146,15 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Written informed consent was obtained from all participants in accordance with the 1964 Declaration of Helsinki (Vagaja & Vourvopoulos 2023, Zenodo DOI 10.5281/zenodo.8086086). The source does not name the approving ethics committee.
+
+Verbatim from the source:
+
+> All participants signed an informed consent before participating in the study in accordance with the 1964 Declaration of Helsinki.
+
+Source: Zenodo record 8086086 description (https://zenodo.org/records/8086086).
+
+Note: The source statement is incomplete (no committee named); defers to the primary publication for the full ethics record.
