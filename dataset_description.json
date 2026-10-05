@@ -1,43 +1,47 @@
 {
-    "Name": "Vagaja2023: Motor-imagery EEG during embodiment-primed MI-BCI training in VR",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Katarina Vagaja",
-        "Athanasios Vourvopoulos"
-    ],
-    "ReferencesAndLinks": [
-        "https://zenodo.org/records/8086086"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "BCI",
-        "brain-computer interface",
-        "EEG",
-        "virtual reality",
-        "embodiment",
-        "virtual hand illusion",
-        "neurorehabilitation"
-    ],
-    "DatasetDOI": "doi:10.5281/zenodo.8086086",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.5281/zenodo.8086086",
-            "URL": "https://zenodo.org/records/8086086"
-        }
-    ],
-    "PublicationYear": 2023,
-    "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
-    ]
+  "Name": "Vagaja2023: Motor-imagery EEG during embodiment-primed MI-BCI training in VR",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Katarina Vagaja",
+    "Athanasios Vourvopoulos"
+  ],
+  "ReferencesAndLinks": [
+    "https://zenodo.org/records/8086086"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "BCI",
+    "brain-computer interface",
+    "EEG",
+    "virtual reality",
+    "embodiment",
+    "virtual hand illusion",
+    "neurorehabilitation"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000292",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.5281/zenodo.8086086",
+      "URL": "https://zenodo.org/records/8086086"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.8086086"
+    }
+  ],
+  "PublicationYear": 2023,
+  "EthicsApprovals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "Version": "1.0.0"
 }
