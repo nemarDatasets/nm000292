@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vagaja2023: Motor-imagery EEG during embodiment-primed MI-BCI training in VR",
-  "description": "EEG recordings from 26 healthy volunteers performing cued left- versus right-hand motor imagery during MI-BCI training in immersive virtual reality. Participants were randomized to an embodiment-primed (virtual hand illusion) group or a non-embodied control group, each completing one run of 40 trials. The dataset also includes bipolar EMG, skin temperature and accelerometry, and is a BIDS re-release of the Zenodo deposit produced via MOABB.",
-  "methods_description": "32-channel EEG was recorded at 500 Hz with a Brain Products LiveAmp 32 and actiCAP active Ag/AgCl electrodes (10-20 montage), plus 2 EMG and 4 auxiliary channels. Each subject had one session with a single motor imagery run of 40 trials (20 per class), using a 10 s imagery/feedback window with visual cues in VR.",
+  "description": "EEG recordings from 26 healthy volunteers performing cued left- versus right-hand motor imagery during a single MI-BCI training run in immersive virtual reality. Participants were randomized to an embodiment-primed group (virtual hand illusion) or a non-embodied control group. The recordings include 32-channel EEG, bipolar EMG, skin temperature and accelerometry, and are re-released in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded at 500 Hz with a Brain Products LiveAmp 32 and actiCAP active Ag/AgCl electrodes (32 EEG channels, 2 EMG, 4 misc) using BrainVision Recorder. Each participant completed one lab session with 40 cue-based trials (20 per class), each with a 10 s imagery/feedback window, with visual feedback in VR.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -86,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d60f4098e4d238836430a1e5966d66a97ca01ab62a5323397b4708a56394029d"
+  "source_hash": "7c5eddf7e3ae58e36253ee6e4d695cf60593ba7c48cb504bed7600f75fa1fe0a"
 }
