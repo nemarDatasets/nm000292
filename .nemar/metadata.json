@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vagaja2023: Motor-imagery EEG during embodiment-primed MI-BCI training in VR",
-  "description": "Motor-imagery EEG recorded from 26 healthy volunteers performing cued left- versus right-hand motor imagery during MI-BCI training in immersive virtual reality. Participants were split into an embodiment-primed group (virtual hand illusion) and a non-embodied control group, each completing a single run of 40 trials. The recordings also include bipolar EMG, skin temperature and accelerometry, and are re-released in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a 32-channel Brain Products LiveAmp using actiCAP active Ag/AgCl electrodes at 500 Hz (standard 10-20 montage), along with 2 EMG and 4 miscellaneous channels. Participants performed cue-based left/right-hand motor imagery in VR, with 20 trials per class, a 10 s imagery/feedback window and visual feedback. The study used a between-subject randomized-group design.",
+  "description": "EEG recordings from 26 healthy volunteers performing cued left- versus right-hand motor imagery during MI-BCI training in immersive virtual reality. Participants were randomized to an embodiment-primed (virtual hand illusion) group or a non-embodied control group, each completing one run of 40 trials. The dataset also includes bipolar EMG, skin temperature and accelerometry, and is a BIDS re-release of the Zenodo deposit produced via MOABB.",
+  "methods_description": "32-channel EEG was recorded at 500 Hz with a Brain Products LiveAmp 32 and actiCAP active Ag/AgCl electrodes (10-20 montage), plus 2 EMG and 4 auxiliary channels. Each subject had one session with a single motor imagery run of 40 trials (20 per class), using a 10 s imagery/feedback window with visual cues in VR.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -81,9 +81,10 @@
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "65a7b6b1b98ec652acb3acfc9ebda9baade9b047923af5de445e5b423ddf6ced"
+  "source_hash": "d60f4098e4d238836430a1e5966d66a97ca01ab62a5323397b4708a56394029d"
 }
