@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vagaja2023: Motor-imagery EEG during embodiment-primed MI-BCI training in VR",
-  "description": "This dataset contains motor-imagery EEG recorded from 26 healthy volunteers performing cued left- versus right-hand motor imagery during MI-BCI training in immersive virtual reality. A between-subject design compared an embodiment-primed (virtual hand illusion) group with a non-embodied control group, each completing one run of 40 trials. Recordings also include bipolar EMG, skin temperature and accelerometry, and are re-released in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a Brain Products LiveAmp 32 using active Ag/AgCl actiCAP electrodes (32 EEG channels, 2 EMG, 4 misc) at 500 Hz in BrainVision Recorder. Participants performed cue-based left/right-hand motor imagery with a 10 s imagery/feedback window and visual feedback in a virtual-reality environment, with 20 trials per class in a single lab session.",
+  "description": "This dataset contains EEG recordings, with bipolar EMG, skin temperature and accelerometry, from 26 healthy volunteers performing cued left- versus right-hand motor imagery during MI-BCI training in immersive virtual reality. Participants were randomized to an embodiment-primed (virtual hand illusion) group or a non-embodied control group, each completing one session of 40 trials. The data were re-released in BIDS format via MOABB from the original Zenodo deposit.",
+  "methods_description": "EEG was recorded at 500 Hz from 32 active Ag/AgCl electrodes (actiCAP, LiveAmp 32, Brain Products) with BrainVision Recorder, plus 2 EMG and 4 misc channels. Each subject completed one lab session with cue-based left/right-hand motor imagery (20 trials per class, 10 s imagery/feedback window) in VR with visual feedback.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,29 +19,28 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
     },
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Motor imagery"
+      "term": "virtual reality"
     },
     {
-      "term": "Virtual reality"
+      "term": "embodiment"
     },
     {
-      "term": "Embodiment"
+      "term": "virtual hand illusion"
     },
     {
-      "term": "Virtual hand illusion"
-    },
-    {
-      "term": "Neurorehabilitation"
+      "term": "neurorehabilitation"
     }
   ],
   "related_identifiers": [
